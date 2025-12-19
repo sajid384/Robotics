@@ -1,0 +1,28 @@
+{
+  "id": "part_iv/chapter_10",
+  "title": "Chapter 10: AI Integration with Isaac ROS",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_iv/chapter_10.md",
+  "sourceDirName": "part_iv",
+  "slug": "/part_iv/chapter_10",
+  "permalink": "/Robotics/docs/part_iv/chapter_10",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_iv/chapter_10.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Chapter 10: AI Integration with Isaac ROS"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 9: NVIDIA Isaac Sim Integration",
+    "permalink": "/Robotics/docs/part_iii/chapter_9"
+  },
+  "next": {
+    "title": "Chapter 11: Navigation and Path Planning",
+    "permalink": "/Robotics/docs/part_iv/chapter_11"
+  }
+}

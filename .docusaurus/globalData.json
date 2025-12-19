@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Robotics/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Robotics/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/Robotics/docs/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_i/chapter_1",
+              "path": "/Robotics/docs/part_i/chapter_1",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_i/chapter_2",
+              "path": "/Robotics/docs/part_i/chapter_2",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_i/chapter_3",
+              "path": "/Robotics/docs/part_i/chapter_3",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_ii/chapter_4",
+              "path": "/Robotics/docs/part_ii/chapter_4",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_ii/chapter_5",
+              "path": "/Robotics/docs/part_ii/chapter_5",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_ii/chapter_6",
+              "path": "/Robotics/docs/part_ii/chapter_6",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_iii/chapter_7",
+              "path": "/Robotics/docs/part_iii/chapter_7",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_iii/chapter_8",
+              "path": "/Robotics/docs/part_iii/chapter_8",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_iii/chapter_9",
+              "path": "/Robotics/docs/part_iii/chapter_9",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_iv/chapter_10",
+              "path": "/Robotics/docs/part_iv/chapter_10",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_iv/chapter_11",
+              "path": "/Robotics/docs/part_iv/chapter_11",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_iv/chapter_12",
+              "path": "/Robotics/docs/part_iv/chapter_12",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_v/chapter_13",
+              "path": "/Robotics/docs/part_v/chapter_13",
+              "sidebar": "docs"
+            },
+            {
+              "id": "part_v/chapter_14",
+              "path": "/Robotics/docs/part_v/chapter_14",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/Robotics/docs/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

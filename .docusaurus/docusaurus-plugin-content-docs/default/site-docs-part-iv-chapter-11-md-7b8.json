@@ -1,0 +1,28 @@
+{
+  "id": "part_iv/chapter_11",
+  "title": "Chapter 11: Navigation and Path Planning",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_iv/chapter_11.md",
+  "sourceDirName": "part_iv",
+  "slug": "/part_iv/chapter_11",
+  "permalink": "/Robotics/docs/part_iv/chapter_11",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_iv/chapter_11.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Chapter 11: Navigation and Path Planning"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 10: AI Integration with Isaac ROS",
+    "permalink": "/Robotics/docs/part_iv/chapter_10"
+  },
+  "next": {
+    "title": "Chapter 12: Decision Making and Planning",
+    "permalink": "/Robotics/docs/part_iv/chapter_12"
+  }
+}

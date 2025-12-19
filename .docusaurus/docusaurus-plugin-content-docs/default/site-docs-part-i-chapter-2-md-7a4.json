@@ -1,0 +1,28 @@
+{
+  "id": "part_i/chapter_2",
+  "title": "Chapter 2: Foundations of Physical AI",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_i/chapter_2.md",
+  "sourceDirName": "part_i",
+  "slug": "/part_i/chapter_2",
+  "permalink": "/Robotics/docs/part_i/chapter_2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_i/chapter_2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Chapter 2: Foundations of Physical AI"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 1: Introduction to Embodied Intelligence",
+    "permalink": "/Robotics/docs/part_i/chapter_1"
+  },
+  "next": {
+    "title": "Chapter 3: Designing for Embodied Intelligence",
+    "permalink": "/Robotics/docs/part_i/chapter_3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "part_iii/chapter_9",
+  "title": "Chapter 9: NVIDIA Isaac Sim Integration",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_iii/chapter_9.md",
+  "sourceDirName": "part_iii",
+  "slug": "/part_iii/chapter_9",
+  "permalink": "/Robotics/docs/part_iii/chapter_9",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_iii/chapter_9.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Chapter 9: NVIDIA Isaac Sim Integration"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 8: Creating Digital Twins",
+    "permalink": "/Robotics/docs/part_iii/chapter_8"
+  },
+  "next": {
+    "title": "Chapter 10: AI Integration with Isaac ROS",
+    "permalink": "/Robotics/docs/part_iv/chapter_10"
+  }
+}

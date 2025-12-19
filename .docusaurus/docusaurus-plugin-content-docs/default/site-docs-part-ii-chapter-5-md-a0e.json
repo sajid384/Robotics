@@ -1,0 +1,28 @@
+{
+  "id": "part_ii/chapter_5",
+  "title": "Chapter 5: Perception and Sensing with ROS 2",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_ii/chapter_5.md",
+  "sourceDirName": "part_ii",
+  "slug": "/part_ii/chapter_5",
+  "permalink": "/Robotics/docs/part_ii/chapter_5",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_ii/chapter_5.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Chapter 5: Perception and Sensing with ROS 2"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 4: ROS 2 Architecture for Humanoid Systems",
+    "permalink": "/Robotics/docs/part_ii/chapter_4"
+  },
+  "next": {
+    "title": "Chapter 6: Control and Actuation in ROS 2",
+    "permalink": "/Robotics/docs/part_ii/chapter_6"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "part_iii/chapter_7",
+  "title": "Chapter 7: Simulation Fundamentals for Humanoid Robots",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_iii/chapter_7.md",
+  "sourceDirName": "part_iii",
+  "slug": "/part_iii/chapter_7",
+  "permalink": "/Robotics/docs/part_iii/chapter_7",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_iii/chapter_7.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Chapter 7: Simulation Fundamentals for Humanoid Robots"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 6: Control and Actuation in ROS 2",
+    "permalink": "/Robotics/docs/part_ii/chapter_6"
+  },
+  "next": {
+    "title": "Chapter 8: Creating Digital Twins",
+    "permalink": "/Robotics/docs/part_iii/chapter_8"
+  }
+}

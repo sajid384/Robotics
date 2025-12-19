@@ -1,0 +1,28 @@
+{
+  "id": "part_iv/chapter_12",
+  "title": "Chapter 12: Decision Making and Planning",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_iv/chapter_12.md",
+  "sourceDirName": "part_iv",
+  "slug": "/part_iv/chapter_12",
+  "permalink": "/Robotics/docs/part_iv/chapter_12",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_iv/chapter_12.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Chapter 12: Decision Making and Planning"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 11: Navigation and Path Planning",
+    "permalink": "/Robotics/docs/part_iv/chapter_11"
+  },
+  "next": {
+    "title": "Chapter 13: Multimodal Perception for Humanoid Robots",
+    "permalink": "/Robotics/docs/part_v/chapter_13"
+  }
+}

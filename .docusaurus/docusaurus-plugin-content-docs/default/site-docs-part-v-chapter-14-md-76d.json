@@ -1,0 +1,24 @@
+{
+  "id": "part_v/chapter_14",
+  "title": "Chapter 14: Natural Language Interaction",
+  "description": "Learning Objectives",
+  "source": "@site/docs/part_v/chapter_14.md",
+  "sourceDirName": "part_v",
+  "slug": "/part_v/chapter_14",
+  "permalink": "/Robotics/docs/part_v/chapter_14",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/syedsajidhussain/Robotics/tree/main/docs/part_v/chapter_14.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "Chapter 14: Natural Language Interaction"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 13: Multimodal Perception for Humanoid Robots",
+    "permalink": "/Robotics/docs/part_v/chapter_13"
+  }
+}

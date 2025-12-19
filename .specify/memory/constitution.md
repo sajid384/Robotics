@@ -1,55 +1,149 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+**Project:** *Physical AI and Humanoid Robotics: From Embodied Intelligence to Sim‑to‑Real Systems*
 
-## Core Principles
+---
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Vision
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+Create a rigorous, practice-driven textbook and course companion that bridges modern AI (perception, planning, LLMs) with real-world robotics, enabling students to design, simulate, and deploy humanoid systems using ROS 2, Gazebo/Unity, and NVIDIA Isaac.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Audience
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+* Senior undergraduates, graduate students, and practitioners
+* Background: Computer Science / AI / Robotics fundamentals
+* Assumed skills: Python, basic linear algebra, probability, Linux
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+---
 
-### [PRINCIPLE_6_NAME]
+### Core Principles
 
+1. **Embodied Intelligence First** — AI is evaluated in physical interaction, not only benchmarks.
+2. **Sim-to-Real Fidelity** — Every simulated result must have a clear path to physical deployment.
+3. **Systems Thinking** — Perception, planning, control, and hardware constraints are treated as one system.
+4. **Reproducibility** — All experiments, configs, and models are repeatable.
+5. **Engineering Rigor** — Performance, latency, safety, and resource limits are explicit.
+6. **Industry Alignment** — Tools and workflows reflect real robotics stacks (ROS 2, Isaac, Jetson).
 
-[PRINCIPLE__DESCRIPTION]
+---
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Scope & Coverage
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+The book strictly follows the course modules with 14 chapters as established:
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+* **Chapter 5:** Digital Twin Chapter - Gazebo & Unity
+* **Chapter 6:** AI-Robot Brain Chapter - NVIDIA Isaac (Sim, ROS, Nav2)
+* **Chapter 7:** VLA Humanoid Control Chapter - Vision-Language-Action
+* **Chapter 8:** Reinforcement Learning for Robotics
+* **Chapter 9:** Computer Vision for Robotics
+* **Chapter 10:** Swarm Robotics and Multi-Robot Systems
+* **Chapter 11:** Robot Ethics and Human-Robot Interaction
+* **Chapter 12:** Field Robotics and Real-World Applications
+* **Chapter 13:** Future Trends and Emerging Technologies in Robotics
+* **Chapter 14:** Synthesis and Conclusions: The Robotics Renaissance
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+The chapter structure is now frozen and will not be modified during the writing phase.
 
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+---
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+### Technical Standards
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+* **Primary Platforms:**
+
+  * ROS 2 (Humble / Iron)
+  * NVIDIA Isaac Sim & Isaac ROS
+  * Gazebo (Classic / Fortress) and Unity
+  * Ubuntu 22.04 LTS
+* **Programming Languages:** Python (primary), minimal C++ where unavoidable
+* **Hardware Targets:**
+
+  * RTX-enabled workstation (simulation & training)
+  * Jetson Orin (edge inference)
+  * RealSense depth cameras, IMU, microphone arrays
+
+---
+
+### Writing Phase Principles
+
+* **Structure Preservation** — All chapter outlines and organizational structures are frozen
+* **Consistency** — Maintain uniform terminology, style, and approach across all chapters
+* **Technical Accuracy** — Verify all information, code examples, and procedures
+* **Accessibility** — Ensure content is approachable while maintaining technical depth
+* **Practical Focus** — Emphasize implementable, hands-on knowledge
+
+---
+
+### Writing & Pedagogy Standards
+
+* Clear separation between:
+
+  * **Concept** → **Implementation** → **Experiment** → **Failure Modes**
+* Each chapter includes:
+
+  * Learning objectives
+  * Architecture diagrams
+  * Step-by-step labs
+  * Toolchain information
+  * Common pitfalls & debugging checklists
+  * Assessment criteria
+* Tone: Technical, precise, implementation-focused
+* Language level: Advanced undergraduate / graduate
+
+---
+
+### Reproducibility Requirements
+
+* All factual and performance claims must be supported by:
+  * Official documentation (ROS, NVIDIA, hardware vendors)
+  * Peer-reviewed robotics/AI papers where applicable
+* Benchmarks must specify:
+  * Hardware used
+  * Simulation vs. physical results
+  * Latency, FPS, and memory usage
+* All code examples and commands must be tested and verified
+* Hands-on labs must be fully detailed and reproducible
+
+---
+
+### Constraints
+
+* **Format:** Book (Markdown → Docusaurus → PDF & GitHub Pages)
+* **Length:** 14 chapters (approx. 350–450 pages equivalent)
+* **Code Quality:** Linting, comments, and README for every module
+* **Ethics & Safety:** Explicit discussion of safety, misuse, and deployment risks
+* **Structure Freeze:** Chapter organization and sequence remain unchanged during writing
+
+---
+
+### Assessment Alignment (Course Companion)
+
+* ROS 2 package implementation
+* Digital twin simulation deliverables
+* Isaac-based perception pipeline
+* Final capstone humanoid demo (voice → plan → act)
+
+---
+
+### Success Criteria
+
+* A reader can:
+  * Build a humanoid digital twin
+  * Deploy ROS 2 nodes to Jetson hardware
+  * Use VLA pipelines for natural language control
+  * Transfer policies from simulation to physical robots
+* All 14 chapters completed with detailed, accurate content
+* Hands-on labs fully documented and testable
+* Capstone runs end-to-end with documented results
+* Codebase is forkable and runnable without instructor intervention
+
+---
+
+### Non‑Negotiables
+
+* No black-box magic: every model and decision pipeline is explained
+* No laptop-only assumptions: physical constraints are real
+* No cloud dependency without a local fallback
+* Chapter structure remains frozen during writing phase
+* All technical content must be verified for accuracy
+
+---
+
+**Outcome:** A definitive, industry-grade textbook for Physical AI and Humanoid Robotics that turns AI engineers into embodied-systems builders.
