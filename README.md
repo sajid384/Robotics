@@ -48,4 +48,4 @@ For more details on deployment, see the [Docusaurus documentation](https://docus
 - `docs/part_v/` - Part V: Vision–Language–Action (VLA) for Humanoid Control
 - `sidebars.js` - Defines the sidebar navigation structure
 - `docusaurus.config.js` - Main configuration file for the Docusaurus site
-- `src/css/custom.css` - Custom CSS styling for the site
+- `src/css/custom.css` - Custom CSS styling for the site# Robotics
